@@ -10,7 +10,7 @@
     h1, h2, h4, a, th, strong, p, small, button{
         color: white;
     }
-    
+/* Nav     */
     .navBar{
         background-color: #FFA500;
         display: flex;
@@ -34,7 +34,9 @@
     .navBar figure figcaption{
         width: none;
     }
+/* fin Nav */
 
+/* style de texte */
     h2, a, th, td, label, p{
         font-size: x-large;
         text-decoration: none;
@@ -55,7 +57,7 @@
     ul a{
         margin: 20px;
     }
-
+/* bannière */
     .banner{
         position: relative;
         text-align: center;
@@ -66,6 +68,7 @@
         vertical-align: top;
     }
 
+/* image en-tête + titre */
     .tt{
         transform: translate(-50%, -50%);
         position: absolute;
@@ -74,6 +77,7 @@
         left: 50%;
         font-size: xx-large;
     }
+/* Fin image en-tête + titre */
 
     main{
         background-color: #808080;
@@ -101,6 +105,7 @@
         display: flex;
     }
 
+/* Tableau */
     table,th, td{
         border-spacing: 0;
     }
@@ -112,7 +117,9 @@
     th{
         background-color: #515151 ;
     }
+/* Fin tableau     */
 
+/* Team */
     .Equipe div{
         display: flex;
         flex-wrap: wrap;
@@ -136,11 +143,13 @@
         opacity: 90%;
         width: 100%;
     }
+/* Fin team */
 
     h4{
         font-size: x-large;
     }   
 
+/* Formulaire de contact  */
     input, textarea, button{
         border: #FFA500 1px groove;
         border-radius: 10px;
@@ -165,7 +174,9 @@
         font-size: 150%;
         padding: 15px;
     }
+/* Fin formulaire de contact */
 
+/* Footer */
     footer{
         background-color: #515151;
         text-align: center;

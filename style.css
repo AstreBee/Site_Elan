@@ -12,7 +12,7 @@
         color: white;
     }
     
-    
+/* Nav  */
     .navBar{
         background-color: #FFA500;
         display: flex;
@@ -31,7 +31,15 @@
         width: 40%;
         align-items: center;
     }
-    
+    .navBar figure figcaption{
+        width: none;
+    }
+    ul a{
+        margin: 20px;
+    }
+/* Fin Nav */
+
+/* type de texte des différents éléments cités     */
     a, h2, th, td, label, p{
         font-size: xx-large;
         text-decoration: none;
@@ -39,15 +47,9 @@
         font-style: normal;
     }
 
-    .navBar figure figcaption{
-        width: none;
-    }
-
-    ul a{
-        margin: 20px;
-    }
 
 
+/* bannière */
     .banner{
         position: relative;
         text-align: center;
@@ -58,6 +60,7 @@
         vertical-align: top;
     }
 
+/* image + titre en-tête */
     .tt{
         transform: translate(-50%, -50%);
         position: absolute;
@@ -66,7 +69,7 @@
         left: 50%;
         font-size: 200%;
     }
-
+/* fin img + titre en tête */
 
     main{
         background-color: #808080;
@@ -93,7 +96,7 @@
         padding-bottom: 5%;
         display: flex;
     }
-
+/* tableau */
     table,th, td{
         border-spacing: 0;
     }
@@ -105,7 +108,7 @@
     th{
         background-color: #515151 ;
     }
-
+/* Team */
     .Team div{
         display: flex;
         flex-wrap: wrap;
@@ -129,14 +132,15 @@
         opacity: 90%;
         width: 100%;
     }
+/* fin team */
 
-    h4{
-        font-size: x-large;
-    }
+h4{
+    font-size: x-large;
+}
 
 
 
-
+/* Formulaire de Contact */
     input, textarea, button{
         border: #FFA500 1px groove;
         border-radius: 10px;
@@ -162,13 +166,17 @@
         font-size: xx-large;
     }
 
+/* Fin formulaire de contact */
 
+
+/* Footer */
     footer{
         background-color: #515151;
         text-align: center;
         padding: 1%;
     }
 
+/* Adresse, numéro de téléphone */
     address, small a{
         font-size: large;
         text-decoration: none;

@@ -10,7 +10,8 @@
     h1, h2, h4, a, th, strong, address, small, button{
         color: white;
     }
-    
+
+    /* Nav */
     .navBar{
         background-color: #FFA500;
         display: flex;
@@ -38,7 +39,8 @@
         display: flex;
         flex-direction: column;
     }
-    
+/* Fin Nav     */
+
     a,h2, p, th, td, label{
         font-size: 80%;
         text-decoration: none;
@@ -47,9 +49,9 @@
     }
 
     .banner{
-    position: relative;
-    text-align: center;
-    }
+        position: relative;
+        text-align: center;
+        }
 
     .banner img{
     width: 100%;
@@ -89,6 +91,7 @@
         text-align: center;
     }
 
+/* tableau */
     table,th, td{
         border-spacing: 0;
     }
@@ -101,8 +104,10 @@
         background-color: #515151 ;
 
     }
+/* Fin tableau */
 
 
+/* Team */
     .Team div figure{
         position: relative;
     }
@@ -120,11 +125,12 @@
         opacity: 90%;
         width: 60%;
     }
+/* fin team */
 
     h4{
         font-size: 1rem;
     }
-
+/* Formulaire de contact */
     input, textarea, button{
         border: #FFA500 1px groove;
         border-radius: 10px;
@@ -144,7 +150,9 @@
     button{
         background-color: #FFA500;
     }
+/* Fin formulaire de contact */
 
+/* footer */
     footer{
         background-color: #515151;
         text-align: center;
